@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'This is Anishs First Website'
+    return 'Anish is the ruler'
 
 @app.route('/anish_related_things')
 def anish_related_things():
@@ -14,6 +14,10 @@ def anish_related_things():
 @app.route('/shenanigans/more')
 def other_thing():
 	return "Hi, I am more shenanigans"
+
+@app.route('/contact')
+def contact_thing():
+	return "I am impossible to contact"
 
 if __name__ == '__main__':
  	app.debug = True
