@@ -5,15 +5,15 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Anish is the ruler'
+    return 'Anish is the ruler and nobody will find this'
 
 @app.route('/anish_related_things')
 def anish_related_things():
-	return "Hi, I am related to Anish, obviously"
+	return "This program made on GitHub is related to the guy sometimes known as Anish Mariathasan"
 
-@app.route('/shenanigans/more')
+@app.route('/about')
 def other_thing():
-	return "Hi, I am more shenanigans"
+	return "This fabulous website was made by a person who got the domain as a gift from an epic guy"
 
 @app.route('/contact')
 def contact_thing():
