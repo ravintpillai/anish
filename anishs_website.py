@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Anish is the ruler and nobody will find this'
+    return 'Anish is the ruler and nobody will find this. It does not count if you got the link :D'
 
 @app.route('/anish_related_things')
 def anish_related_things():
