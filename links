@@ -1,0 +1,3 @@
+>> mkdir templates
+<title>Contact me</title>
+<h1>{{url_for('anish_related_things')}}</ht>
