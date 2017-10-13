@@ -16,7 +16,7 @@ def anish_related_things():
 
 @app.route('/about')
 def other_thing():
-	return "This fabulous website was made by a person who got the domain as a gift from an epic guy"
+	return "This fabulous website was made by a person who got the domain as a gift from an epic guy..."
 
 @app.route('/contact')
 def contact_thing():
