@@ -5,9 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-	return render_template('index.html')
-	return "No one will find this (probably) - but as you obviously have, you might as well have a look around."
-    	
+	return render_template('index.html') 	
 
 
 @app.route('/anish_related_things')
@@ -20,7 +18,7 @@ def other_thing():
 
 @app.route('/contact')
 def contact_thing():
-	return "I am impossible to contact. Sadly."
+	return "I am impossible to contact. Sadly. But, if you know how to navigate the internet, you can find me..."
 
 if __name__ == '__main__':
  	app.debug = True
