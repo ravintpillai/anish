@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
 	return "No one will find this...I am a distant relation of Anish Mariathasan"
-    return render_template('index.html')
+    	return render_template('index.html')
 
 
 @app.route('/anish_related_things')
