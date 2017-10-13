@@ -6,21 +6,21 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
 	return render_template('index.html')
-	return "No one will find this...I am a distant relation of Anish Mariathasan"
+	return "No one will find this (probably) - but as you obviously have, you might as well have a look around."
     	
 
 
 @app.route('/anish_related_things')
 def anish_related_things():
-	return "This program made on GitHub is related to the guy sometimes known as Anish Mariathasan"
+	return "This program made on GitHub, is related to the guy sometimes known as Anish Mariathasan."
 
 @app.route('/about')
 def other_thing():
-	return "This fabulous website was made by a person who got the domain as a gift from an epic guy..."
+	return "This fabulous website was made by a person, who got the domain as a gift from an epic guy..."
 
 @app.route('/contact')
 def contact_thing():
-	return "I am impossible to contact"
+	return "I am impossible to contact. Sadly."
 
 if __name__ == '__main__':
  	app.debug = True
