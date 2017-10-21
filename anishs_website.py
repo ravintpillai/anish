@@ -1,6 +1,3 @@
-body { 
-    background: url(/cream_dust.zip/cream_dust.png) repeat 0 0;
-}
 from flask import Flask, render_template
 import os
 
