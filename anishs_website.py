@@ -21,9 +21,9 @@ def other_thing():
 @app.route('/contact')
 def contact_thing():
 	return "I am impossible to contact. Sadly. But, if you know how to navigate the internet, you can find me..."
+
 @app.route('/play')
 def fun_thing():
-	return "Pplay this game about this website..."
 	return render_template('contact.html')
 
 if __name__ == '__main__':
