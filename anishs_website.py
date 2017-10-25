@@ -7,11 +7,9 @@ app = Flask(__name__)
 def hello_world():
 	return render_template('index.html')
 	
-z
-
-@app.route('/anish_related_things')
-def anish_related_things():
-	return "This program made on GitHub, is related to the guy sometimes known as Anish Mariathasan."
+@app.route('/blog')
+def blog_things():
+	return render_template('blog.html')
 
 @app.route('/about')
 def other_thing():
@@ -20,7 +18,7 @@ def other_thing():
 
 @app.route('/contact')
 def contact_thing():
-	return "I am impossible to contact. Sadly. But, if you know how to navigate the internet, you can find me..."
+	return "I am impossible to contact, aside from emails, forums, places I edit etc."
 
 @app.route('/play')
 def fun_thing():
