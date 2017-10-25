@@ -8,7 +8,7 @@ def hello_world():
 	return render_template('index.html')
 	
 @app.route('/blog')
-def blog_things():
+def blog_thing():
 	return render_template('blog.html')
 
 @app.route('/about')
