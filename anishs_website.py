@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello_world():
 	return render_template('index.html')
 	
-
+z
 
 @app.route('/anish_related_things')
 def anish_related_things():
