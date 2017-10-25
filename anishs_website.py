@@ -15,7 +15,7 @@ def anish_related_things():
 
 @app.route('/about')
 def other_thing():
-	return "This fabulous website was made by a person, who got the domain as a gift from an epic guy..."
+	return "Hello! If you found this by a general search, you will know that I edit Wikipedia (constructively!) and Q & A forums like Quora and StackOverflow. Anyway, um...everything else you could possibly want to know can be found by searching."
 	
 
 @app.route('/contact')
