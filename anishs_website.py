@@ -12,7 +12,7 @@ def blog_thing():
 	return render_template('blog.html')
 
 @app.route('/about')
-def other_thing():
+def about_thing():
 	return "Hello! If you found this by a general search, you will know that I edit Wikipedia (constructively!) and Q & A forums like Quora and StackOverflow. Anyway, um...everything else you could possibly want to know can be found by searching."
 	
 
