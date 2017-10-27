@@ -23,7 +23,9 @@ def contact_thing():
 @app.route('/play')
 def fun_thing():
 	return render_template('contact.html')
-
+@app.route('/googlec19f162caea798b3.html')
+def test_thing():
+	return "I am impossible to contact, aside from emails, forums, places I edit etc."
 if __name__ == '__main__':
  	app.debug = True
  	port = int(os.environ.get("PORT", 5000))
