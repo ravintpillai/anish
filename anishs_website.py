@@ -10,6 +10,9 @@ def hello_world():
 @app.route('/blog')
 def blog_thing():
 	return render_template('blog.html')
+@app.route('/click-on-this')
+def blog_thing():
+	return "I just wasted your time clicking on this. :( (Click on the other links - they actually do stuff)"
 
 @app.route('/about')
 def about_thing():
