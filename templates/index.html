@@ -30,6 +30,11 @@ mixpanel.init("c18876a6cab6d5a4bb343d0143bb2ae7");</script><!-- end Mixpanel -->
 
 
 <body>
+  <script type="text/javascript">
+mixpanel.track("Page Loaded");
+    mixpanel.identify('1')
+</script>
+  
     <link rel="shortcut icon" href="https://photos.google.com/album/AF1QipOhFgFY7bNgYa12YIY7xk4Scrai2acaMRHKORXM/photo/AF1QipNjJ331yL-Ipza2GxeJPawOxMK7H1TjwBpLYqMI" type="image/x-icon"/>
     <p>Hello, and welcome to this website. You've obviously found this from your IoT, so you may as well take an extra 47.433 seconds to look around.</p> 
       <p><a href="{{ url_for('annoy_thing') }}">You must click on this</a></p>
