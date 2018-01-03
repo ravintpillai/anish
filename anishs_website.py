@@ -15,7 +15,7 @@ def work_thing():
 	return "If you are interested at having a very cheap website made for you, please contact anishmariathasan@gmail.com"
 @app.route('/click-on-this')
 def annoy_thing():
-	return "I just wasted your time clicking on this. :( (Click on the other links - they actually do stuff)"
+	return "I just wasted your time clicking on this. :( (Click on the other links - they actually do stuff) Umeshmama - laundry director"
 
 @app.route('/about')
 def about_thing():
