@@ -10,9 +10,11 @@ def hello_world():
 @app.route('/blog')
 def blog_thing():
 	return render_template('blog.html')
-@app.route('/web-design_work')
-def work_thing():
-	return "If you are interested at having a very cheap website made for you, please contact anishmariathasan@gmail.com"
+
+@app.route('/squashed_orange')
+def so_thing():
+	return render_template('so.html')
+
 @app.route('/click-on-this')
 def annoy_thing():
 	return "Contact me at squashed-orange-2453@pages.plusgoogle.com"
