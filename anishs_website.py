@@ -26,7 +26,7 @@ def about_thing():
 
 @app.route('/contact')
 def contact_thing():
-	return "I am impossible to contact, aside from emails, social media etc."
+	return render_template('contact.html')
 
 @app.route('/play')
 def fun_thing():
