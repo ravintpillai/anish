@@ -21,12 +21,12 @@ def annoy_thing():
 
 @app.route('/about')
 def about_thing():
-	return "Everything you could possibly want to know can be found by searching."
+	return "Current student. Everything else you want to know can probably be found by searching."
 	
 
 @app.route('/contact')
 def contact_thing():
-	return render_template('contact.html')
+	return render_template('contact.html') 
 
 @app.route('/play')
 def fun_thing():
